@@ -1,8 +1,7 @@
 <svg width="905" height="833" viewBox="0 0 905 833" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect width="905" height="833" fill="#1E1E1E"/>
 <g id="Frame 1">
-<rect x="2" y="2" width="901" height="829" fill="white"/>
-<rect x="2" y="2" width="901" height="829" stroke="black" stroke-width="4"/>
+<rect width="905" height="833" fill="white"/>
 <path id="Rectangle 37" d="M440 30H718.5V153H726.5V459.5H713.5V631.5C569.501 647.682 505.73 671.131 436 741.5H114.5L114.5 607.5C68.951 599.013 76.1084 540.638 114.5 537.5H379C404.755 549.474 416.434 551.344 446.75 548.5V216H440V30Z" fill="#7E7E7E"/>
 <g id="Group 1" filter="url(#filter0_f_0_1)">
 <line id="Line 1" x1="190" y1="606" x2="208" y2="606" stroke="#4674FF" stroke-width="10"/>
