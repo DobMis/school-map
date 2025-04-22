@@ -1,0 +1,105 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fefefe;
+  color: #333;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.centered-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.main-title {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.big-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.big-button {
+  width: 220px;
+  padding: 20px 0;
+  font-size: 24px;
+  background-color: #ccc;
+  border-radius: 10px;
+  color: black;
+  text-decoration: none;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.big-button:hover {
+  background-color: #aaa;
+  transform: scale(1.05);
+}
+
+.back-button {
+  display: inline-block;
+  margin: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #007BFF;
+}
+
+.back-button:hover {
+  color: #0056b3;
+}
+
+.floor-buttons {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  z-index: 10;
+}
+
+.floor-buttons button {
+  width: 60px;
+  height: 60px;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  background-color: #e0e0e0;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.floor-buttons button:hover {
+  background-color: #c0c0c0;
+}
+
+.floor-buttons button.active {
+  background-color: #4285f4;
+  color: white;
+  box-shadow: 0 4px 10px rgba(66, 133, 244, 0.3);
+}
+
+.image-container {
+  margin-top: 80px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+object {
+  width: 90vw;
+  height: 75vh;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 12px;
+}
